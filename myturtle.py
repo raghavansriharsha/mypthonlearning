@@ -1,2 +1,40 @@
 import turtle
 turtle.shape('turtle')
+turtle.setup(500, 500)
+turtle.Screen().bgcolor("blue")
+turtle.Screen().colormode(255)
+turtle.Screen().bgcolor(29, 162, 216)
+turtle.color(9, 185, 13)
+turtle.pencolor(0, 128, 0)
+turtle.turtlesize(10, 10, 2)
+turtle.resizemode('auto')
+turtle.turtlesize(3, 3, 2)
+turtle.turtlesize(outline=10)
+turtle.turtlesize(outline=3)
+turtle.forward(200)
+turtle.back(350)
+turtle.left(90)
+turtle.forward(200)
+turtle.right(150)
+pen = turtle.Turtle()
+pen.color("blue")
+pen.pensize(5)
+pen.forward(100)
+pen.color("orange")
+pen.forward(100)
+pen.left
+pen.forward
+pen.left
+pen.forward(100)
+pen.hideturtle()
+
+for i in range(1, 5):
+    pen.forward(100)
+    pen.left(90)
+    
+pen.fillcolor('orange')
+pen.begin_fill()
+pen.circle(50)
+pen.end_fill()
+circle(radius, extent, steps)
+pen.circle(100, 180)
